@@ -9,7 +9,7 @@ $(function () {
             0,
             $("canvas").width(),
             $("canvas").height(),
-            70);
+            170);
         }
     });
     vv = setTimeout(function () {
