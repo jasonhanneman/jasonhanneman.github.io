@@ -14,7 +14,14 @@
 	</head>
 	<body>
 		<div>
-			<video id="bgvid" src="Plexus720.mp4" controls="false" muted playsinline autoplay loop autobuffer preload poster="Plexus.jpg"></video>
+			<video id="bgvid" poster="Plexus.jpg" autoplay loop autobuffer preload>
+			    <source type="video/webm" src="Plexus.webmhd.webm"></source>
+			    <source type="video/ogg" src="Plexus.oggtheora.ogv"></source>
+			    <source type="video/mp4" src="Plexus720.mp4"></source>
+			    <p>Sorry, your browser does not support the &lt;video&gt; element.</p>
+			</video>
+
+			<!--<video id="bgvid" src="Plexus720.mp4" controls="false" muted playsinline autoplay loop autobuffer preload poster="Plexus.jpg"></video>-->
 		</div>
 		<div class="blurdiv"></div>
 		<div class="top-menu">
